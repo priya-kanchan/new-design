@@ -1,0 +1,151 @@
+
+@media(max-width: 1366px) {
+  a.nav-link {
+    font-size: 16px;
+    padding: 0;
+    margin: 0 !important;
+}
+.form-content {
+    padding: 0 1.5rem;
+}
+}
+
+
+/* Responsive Slider */
+
+@media (max-width: 576px) {
+  .slider-nav button {
+    width: 35px;
+    height: 35px;
+  }
+
+  .slider-nav button i {
+    font-size: 0.9rem;
+  }
+
+  .slider-dots {
+    bottom: 40px;
+  }
+}
+
+
+/* Responsive design for 1024px */
+@media (min-width: 1024px) {
+    .hero-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+  .hero-title {
+    font-size: 4.5rem;
+  }
+ 
+  .contact-form {
+            margin-top: 0 !important;
+  }
+}
+
+
+@media (min-width: 640px) {
+  .hero-buttons {
+    flex-direction: row;
+  }
+}
+
+
+
+/* Responsive design for 768px */
+@media (max-width: 768px) {
+     .hero-title {
+    font-size: 4rem;
+  }
+
+
+    .slider-nav {
+    padding: 0 1rem;
+  }
+    .hero-section {
+        min-height: 40vh;
+    }
+
+  .slider-nav button {
+    width: 40px;
+    height: 40px;
+  }
+
+  .slider-nav button i {
+    font-size: 1rem;
+  }
+
+  .slider-dots {
+    bottom: 60px;
+    gap: 10px;
+  }
+
+  .dot {
+    width: 10px;
+    height: 10px;
+  }
+
+  .notification {
+    right: 10px;
+    left: 10px;
+    max-width: none;
+    transform: translateY(-100px);
+  }
+
+  .notification.show {
+    transform: translateY(0);
+  }
+  .slide {
+    background-attachment: scroll;
+  }
+  .hero-container{
+    position: static;
+    background: #000;
+    padding: 28px 5px;
+  }
+  .contact-form {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto !important;
+    padding: 0;
+}
+  
+}
+
+
+
+/* Responsive design for 576px */
+
+@media (max-width: 576px) {
+  .section-padding {
+    padding: 60px 0;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .hero-subtitle ul li {
+    text-decoration: none;
+    list-style-type: disc;
+
+  }
+
+  .hero-buttons .btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .back-to-top {
+    bottom: 20px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+  }
+}
