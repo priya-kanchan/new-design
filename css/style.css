@@ -1190,7 +1190,7 @@ body {
   }
 
   to {
-    opacity: 0;
+    opacity: 1;
     transform: translateY(0);
   }
 }
@@ -1673,7 +1673,7 @@ body {
   align-items: center;
   gap: 0.5rem;
   font-size: 1.125rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .home-icon {

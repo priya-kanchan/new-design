@@ -167,20 +167,25 @@
         margin-top: 54px !important;
     }
 .slider-nav{
-        left: 2%;
+                left: 2%;
+        top: 90%;
+
 }
 
 }
 @media(max-width:1366px){    
   .slider-nav {
-        left: 6%;
+               left: 7%;
+        top: 96%;
+
     }}
 
 
 @media(max-width:1280px){
 .slider-nav{
-  top: 85%;
-  left: 5%;
+        top: 95%;
+        left: 4%;
+
 }
 }
 
