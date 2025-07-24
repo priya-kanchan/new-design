@@ -1,4 +1,6 @@
 
+
+
 @media(max-width: 1366px) {
   a.nav-link {
     font-size: 16px;
@@ -148,4 +150,12 @@
     width: 45px;
     height: 45px;
   }
+}
+
+
+
+@media(max-width:1400px){
+      .contact-form {
+        margin-top: 54px !important;
+    }
 }
