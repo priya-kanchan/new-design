@@ -163,16 +163,17 @@ body {
 
 /* Slider Navigation */
 .slider-nav {
-  position: absolute;
-  top: 85%;
-  width: fit-content;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 2rem;
-  z-index: 3;
-  gap: 17px;
-  left: 5%;
-  transform: translateY(-50%);
+    position: absolute;
+    top: 82%;
+    width: fit-content;
+    display: flex
+;
+    justify-content: space-between;
+    padding: 0 2rem;
+    z-index: 3;
+    gap: 17px;
+    left: 14%;
+    transform: translateY(-50%);
 }
 
 /* .slider-nav {
