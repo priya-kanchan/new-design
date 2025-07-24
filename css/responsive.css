@@ -57,6 +57,11 @@
 
 /* Responsive design for 768px */
 @media (max-width: 768px) {
+
+  .slider-nav{
+    left: 3%;
+  }
+
      .hero-title {
     font-size: 4rem;
   }
@@ -150,6 +155,9 @@
     width: 45px;
     height: 45px;
   }
+      .contact-form {
+        margin-top: 1px !important;
+    }
 }
 
 
@@ -158,4 +166,34 @@
       .contact-form {
         margin-top: 54px !important;
     }
+.slider-nav{
+        left: 2%;
 }
+
+}
+@media(max-width:1366px){    
+  .slider-nav {
+        left: 6%;
+    }}
+
+
+@media(max-width:1280px){
+.slider-nav{
+  top: 85%;
+  left: 5%;
+}
+}
+
+@media(max-width:967px){
+    .contact-form {
+        margin-top: 1px !important;
+    }
+    .navbar-nav .nav-item {
+      font-size: 17px;
+      padding: 7px 0;
+    }
+    .contact-info{
+      margin-top: 20px;
+    }
+}
+
